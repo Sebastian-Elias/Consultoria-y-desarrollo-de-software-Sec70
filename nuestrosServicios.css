@@ -1,0 +1,68 @@
+body{
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #333334;
+    color: #ffffff;
+}
+
+.nuestros-servicios {
+    margin-top: 120px;
+}
+
+
+.card-group {
+    margin-top: 5%;
+    gap: 0;
+}
+
+.seccion-texto{
+    width: 35%;
+
+}
+
+.card-group{
+    display: flex;
+}
+
+.card{
+    background-color: #333334;
+    color: #ffffff;
+    display: flex;
+    border: 1px solid #5F5D62;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    z-index: 1;
+    box-shadow: none;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    background-color: #5F5D62;
+    z-index: 3;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-title{
+    font-weight: bold;
+    margin-bottom: 10%;
+    text-align: center;
+
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card-img-top{
+    width: 20%; 
+    height: auto; 
+    object-fit: cover;
+    display: block;
+    margin: 0 auto; 
+    margin-bottom: 10%;
+    transition: transform 0.5s ease;
+}
+
+.card:hover .card-img-top {
+    transform: rotateY(180deg); /* Gira la imagen 180 grados sobre el eje Y */
+}
+
